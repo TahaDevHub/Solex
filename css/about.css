@@ -150,7 +150,7 @@
 /* ========== Responsiveness ========== */
 @media (max-width: 786px){
 .logo img{
-        width: 2vw;
+        width: 10vw;
     }
     .carticon{
         font-size: x-small;
@@ -168,5 +168,6 @@
         width: 100%;
     }
 }
+
 
 
