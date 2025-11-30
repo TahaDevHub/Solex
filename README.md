@@ -1,2 +1,6 @@
+~ Group members:
+Muhammad Taha 25F-0755
+Kashifa Mansoor 25F-0623
 # Solex---Shoes-Website
-Our SOLEX shoes website
+A simple Shopping website created with HTML, CSS and JS.
+
