@@ -85,6 +85,7 @@
                 font-family: 'Science Gothic';
                 font-size: x-small;
                 display: flex;
+                        flex-wrap: wrap;
                 width: 60%;
                 justify-content: space-between;
             }
@@ -144,4 +145,19 @@
             .embededvid{
                 display: flex;
                 justify-content: center;
+
             }
+/* ========== Responsiveness ========== */
+@media (max-width: 786px){
+    nav a{
+        font-size: xx-small;
+    }
+    .footer{
+        gap: 50px;
+    }
+    body, html{
+            overflow-x: hidden;
+    }   
+            .aboutcontent img{
+                        overflow-x:hidden;}
+}
