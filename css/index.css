@@ -342,6 +342,12 @@
 
             /* =============== Responsivenes ============ */
 @media (max-width : 786px){
+                .logo img{
+        width: 10vw;
+    }
+    .carticon{
+        font-size: x-small;
+    }
             nav a{
         font-size: xx-small;
     }
@@ -355,6 +361,7 @@ body, html{
             overflow-x: hidden;
 }
 }
+
 
 
 
