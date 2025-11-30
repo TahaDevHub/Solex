@@ -14,17 +14,16 @@
             let pause=document.querySelector(".pausei");
             
             pausediv.addEventListener("click", () => {
-                if(v.paused{ //v.paused is a boolean → true/false,
+                if(v.paused){ //v.paused is a boolean → true/false,
                     v.play();
                 }
                 else{
                     v.pause();
                 }
                 pause.classList.toggle("fa-circle-pause");
-                    pause.classList.toggle("fa-circle-play");
+                pause.classList.toggle("fa-circle-play");
             
             })
-
 
 // ======= Script Section 2 =======
 //Select Elements
@@ -87,4 +86,5 @@ function updateCarouselImages() {
     alert("Subscribed successfully!");
 
 });
+
 
