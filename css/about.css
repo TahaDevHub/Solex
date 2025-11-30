@@ -157,7 +157,9 @@
     }
     body, html{
             overflow-x: hidden;
-    }   
+    }
             .aboutcontent img{
-                        overflow-x:hidden;}
+        width: 100%;
+    }
 }
+
