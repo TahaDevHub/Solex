@@ -340,4 +340,9 @@
             }
 
             /* =============== Responsivenes ============ */
+@media (max-width : 786px){
+    .vpBtn{
+        display: none;
+    }
+}
 
