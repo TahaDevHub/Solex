@@ -85,6 +85,7 @@
                 font-family: 'Science Gothic';
                 font-size: x-small;
                 display: flex;
+              flex-wrap: wrap;
                 width: 60%;
                 justify-content: space-between;
             }
@@ -253,3 +254,4 @@
             overflow-x: hidden;
     }   
 }
+
