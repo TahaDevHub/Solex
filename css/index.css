@@ -342,9 +342,6 @@
 
             /* =============== Responsivenes ============ */
 @media (max-width : 786px){
-                .logo img{
-        width: 10vw;
-    }
     .carticon{
         font-size: x-small;
     }
@@ -361,6 +358,7 @@ body, html{
             overflow-x: hidden;
 }
 }
+
 
 
 
