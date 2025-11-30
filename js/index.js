@@ -27,13 +27,12 @@
 
 
 // ======= Script Section 2 =======
-document.querySelectorAll(".carousel").forEach((carousel) =>{
-            //Select Elements
-        const track = carousel.querySelector('.carousel-track');
+//Select Elements
+        const track = document.querySelector('.carousel-track');
         const slides = Array.from(track.children);
-        const prev = carousel.querySelector('.control-left');
-        const next = carousel.querySelector('.control-right');
-        const dotsContainer = carousel.querySelector('.dots');
+        const prev = document.querySelector('.control-left');
+        const next = document.querySelector('.control-right');
+        const dotsContainer = document.querySelector('.dots');
 
         let index = 0;
 
@@ -58,6 +57,8 @@ document.querySelectorAll(".carousel").forEach((carousel) =>{
         update();
         }
 
+window.addEventListener('resize', updateCarouselImages);
+window.addEventListener('load', updateCarouselImages);
 // Next / Prev controls
         next.addEventListener('click', () => goToSlide(index + 1));
         prev.addEventListener('click', () => goToSlide(index - 1));
@@ -67,10 +68,17 @@ document.querySelectorAll(".carousel").forEach((carousel) =>{
 
 // Initialize first active dot
         update();
-
-});
-
-
+//======= Carousel Update for vertical devices
+function updateCarouselImages() {
+  const slidesupdate = document.querySelectorAll('.carousel-track .slide img');
+  if (window.innerWidth <= 786) {
+    slidesupdate[0].src = 'images/Index/section2 -carousel/1V.png';
+    slidesupdate[1].src = 'images/Index/section2 -carousel/2V.png';
+    slidesupdate[2].src = 'images/Index/section2 -carousel/3V.png';
+    slidesupdate[3].src = 'images/Index/section2 -carousel/4V.png';
+    slidesupdate[4].src = 'images/Index/section2 -carousel/5V.png';
+  }
+}
 
 
 // ======= Script Section 5 =======
@@ -79,3 +87,4 @@ document.querySelectorAll(".carousel").forEach((carousel) =>{
     alert("Subscribed successfully!");
 
 });
+
