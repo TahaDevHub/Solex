@@ -58,7 +58,7 @@
                 display: inline-block; /*to use scale in hover*/
             }
             nav a:hover{
-                color: red;
+                color: blue;
                 background: #F9F9F9F9;
                 
             }
@@ -165,6 +165,7 @@
         width: 100%;
     }
 }
+
 
 
 
